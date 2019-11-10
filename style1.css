@@ -1,33 +1,98 @@
-Body {background-color: lightgoldenrodyellow;
- color: #1a1a00;
-font-size: 15px;}
-
-.list-section{
-    background-color:red;}
-
-.sec1{width: 25%;
-}
-
-.sec2{width: 25%; 
-     
-}
-/* Create two equal columns that floats next to each other */
-.column {
-    float: left;
-    width: 50%;
-    padding: 10px;
-    height: 300px; /* Should be removed. Only for demonstration */
+*{
+    margin:0;
+    padding:0;
   }
   
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
+  body{
+    margin:0;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size:17px;
+    color: rgb(253, 165, 179);
+    line-height:1.6;
   }
+  
+  #showcase{
+    background-image:url('https://images.pexels.com/photos/805295/pexels-photo-805295.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260');
+    background-size:cover;
+    background-position:center;
+    height: 90vh;
+    line-height: 33px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+    padding: 2px;
+  }
+  
+  #showcase h1{
+    font-size:50px;
+    line-height:1.2;
+    margin-top: 35px;
+    color: white;
+    margin-bottom: 10px;
 
-/*img{width: 70%;
-    border-radius: 20%;
-length: 100%;
-border-radius: 20%;}*/
-
+  }
+  #showcase h2{color: rgb(34, 93, 255);}
+  #showcase p{
+    font-size:20px;
+    color: rgb(253, 165, 179);
+    margin-bottom: 60px;
+  }
+   
+  #showcase .button{
+    font-size:18px;
+    text-decoration:none; 
+    color: rgb(253, 165, 179);
+    border: rgb(253, 165, 179) 2.5px solid;
+    background-color: white;
+    padding:10px 20px;
+    border-radius:30px;
+      }
+  
+  #showcase .button:hover{
+    background: rgba(255, 205, 205, 0.781);
+    color: #fff;
+  }
+  
+  #section-a{
+    padding:20px;
+    background:#8198fd7a;
+    color:rgb(34, 93, 255);
+    text-align: center;
+  }
+  
+  #section-b{
+    padding:20px;
+    background: #rgba(255,205,205,.781);
+    text-align:center;
+  }
+  h3 {text-align: center;}
+  #section-c{
+    display:flex;
+  }
+  
+  #section-c div{
+    padding:20px;
+    text-align: center;
+  }
+  
+  #section-c .box-1, #section-c .box-3{
+    background:#8198fd7a;
+    width: 670px;
+    color:rgb(34, 93, 255);
+  }
+  #section-c .submit{color:rgba(255, 205, 205, 0.781); }
+  
+  #section-c .box-2{
+   text-align: center;
+   
+   background-size: 480px;
+    background-image: url('https://images.pexels.com/photos/130764/pexels-photo-130764.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'); 
+    width:620px;  font-style: oblique;}
+#section-c .box-2 #text{ width: 480px; height: 20px;
+    margin-top: 15px;
+}
+  footer {
+      text-align: center;
+  }
+  

@@ -29,7 +29,7 @@
     font-size:50px;
     line-height:1.2;
     margin-top: 35px;
-    color: white;
+    color: rgb(253, 165, 179);
     margin-bottom: 10px;
 
   }
@@ -94,5 +94,4 @@
     margin-top: 15px;
 }
   footer {
-      text-align: center;
-  }
+      text-align: center;}
